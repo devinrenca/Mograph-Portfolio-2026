@@ -121,10 +121,6 @@ a {
     padding-bottom: 1em;
 }
 
-img {
-    cursor: pointer;
-}
-
 .dash {
     border-bottom: 2px solid #2B303A;
     margin-top: 2em;
@@ -560,7 +556,7 @@ span.logo-R {
 
 #case-studies {
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
     background: rgb(185,201,225);
     background: linear-gradient(180deg, rgba(185,201,225,1) 0%, rgba(240,244,244,1) 130%);
@@ -894,12 +890,10 @@ span.subtext {
 
 /*project page starts */
 
-.proj-curve {
-    position: absolute;
+.proj-grid {
+    position: fixed;
     z-index: -1;
     width: 100%;
-    height: 40%;
-    transform: translateY(200px);
 }
 
 .proj-fill {
@@ -1317,11 +1311,6 @@ image-child {
 }
 
 /* play animation ends */
-
-.play-page {
-    background: #1739FF;
-    background: linear-gradient(0deg, rgba(23, 57, 255, 1) 10%, rgba(240, 244, 244, 1) 50%);
-}
 
 .play-container {
     width: 90%;
