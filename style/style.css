@@ -176,18 +176,18 @@ a {
 
 span.logo-D {
     letter-spacing: 0;
-    transition: .12s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+    transition: .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
 }
 
 span.logo-slash {
     margin: 0 0 0 12px;
-    transition: .12s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+    transition: .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
 }
 
 span.logo-R {
     margin: 0 0 0 -12px;
     letter-spacing: 0;
-    transition: .12s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+    transition: .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
 }
 
 .hide1, .hide2, .hide3, .hide4, .hide5, .hide6, .hide7, .hide8 {
@@ -196,7 +196,7 @@ span.logo-R {
       vertical-align: bottom;
       overflow: hidden;
       white-space: nowrap;
-      transition: .12s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+      transition: .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
       transition-delay: .02s;
       margin-left: -19px;
       opacity: 0;
@@ -863,13 +863,6 @@ span.subtext {
     transition: all .2s .025s ease;
 }
 
-@media (max-width: 1200px) {
-       .rig-text {
-        font-size: 36px;
-        text-align: center;
-    } 
-}
-
 @media (max-width: 9000px) {
     #rig li {
         width:33.333%;
@@ -877,6 +870,15 @@ span.subtext {
 }
 
 @media (max-width: 1200px) {
+    #rig {
+        padding: 0 6px 0 6px;
+}
+    
+    .rig-text {
+        font-size: 36px;
+        text-align: center;
+    } 
+    
     #rig li {
         width:100%;
     }
@@ -1352,13 +1354,13 @@ image-child {
     width: 100%;
     transform: translateX(-70px);
     height: auto;
-    padding: 2em 0 2em 0;
+    padding: 2em 0;
 }
 
 @media (max-width: 1200px) {
     .play-container {
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
         margin: 0 auto;
     }
     
@@ -1370,13 +1372,18 @@ image-child {
     }
     
     .play-right {
-        width: 75%;
-        min-height: 200px;
+        width: 70%;
+        min-height: 100px;
         margin: 0 auto;
+    }
+      
+    .play-content {
+        width: 100%;
     }
     
     .play-vid {
         transform: translateX(0);
+        padding: 1em 0;
     }
     
     .play-banner h3 {
