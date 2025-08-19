@@ -911,6 +911,12 @@ span.subtext {
     padding-top: 2em;
 }
 
+.reel-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
 @media (max-width: 1200px) {
     .proj-curve {
         display: none;
@@ -919,8 +925,6 @@ span.subtext {
     
     .proj-container {
     width: 90%;
-    margin: 0 auto;
-    padding-top: 2em;
 }
 }
 
