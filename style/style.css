@@ -140,11 +140,6 @@ a {
     width: 92px;
 }
 
-.header-margin {
-    margin-left: 3em;
-    margin-right: 3em;
-}
-
 @media (max-width: 1200px) {
 .content {
     margin: 0;
@@ -160,8 +155,13 @@ a {
 }
 
 .header-margin {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin: 0 3em;
+}
+
+@media (max-width: 1200px) {
+.header-margin {
+    margin: 0 1em;
+}
 }
 
 .header .logo {
