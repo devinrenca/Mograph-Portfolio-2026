@@ -431,6 +431,16 @@ span.logo-R {
     text-align: center;
 }
 
+.welcome-headline {
+    margin: 0 .5em;
+}
+
+@media (max-width: 1200px) {   
+    .welcome-headline {
+        padding-bottom: 1em;
+        }
+    }
+
 /* intro animation */
 
 .welcome-banner span {
