@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.7 116.7"><defs><style>.cls-1{fill:#ff3e71;}.cls-2{fill:none;stroke:#2b303a;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style></defs><g id="Layer_3"><circle class="cls-1" cx="58.35" cy="58.35" r="58.35"/><circle class="cls-2" cx="58.21" cy="59.35" r="29.53"/><path class="cls-2" d="M58.21,88.89s-11.33-2.29-11.33-29.53,11.33-29.53,11.33-29.53"/><path class="cls-2" d="M87.74,57.78s-2.29,11.33-29.53,11.33-29.53-11.33-29.53-11.33"/><path class="cls-2" d="M60.93,88.89s11.33-2.29,11.33-29.53-11.33-29.53-11.33-29.53"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 116.7 116.7">
+  <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #2b303a;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .st1 {
+        fill: #ff5955;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3">
+    <circle class="st1" cx="58.3" cy="58.3" r="58.3"/>
+    <circle class="st0" cx="58.2" cy="59.3" r="29.5"/>
+    <path class="st0" d="M58.2,88.9s-11.3-2.3-11.3-29.5,11.3-29.5,11.3-29.5"/>
+    <path class="st0" d="M87.7,57.8s-2.3,11.3-29.5,11.3-29.5-11.3-29.5-11.3"/>
+    <path class="st0" d="M60.9,88.9s11.3-2.3,11.3-29.5-11.3-29.5-11.3-29.5"/>
+  </g>
+</svg>

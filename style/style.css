@@ -86,7 +86,7 @@ p {
 a { 
     text-decoration: none;
     font-size: 1.4em;
-    color: #1739FF; 
+    color: #0867ff; 
 }
 
 @media (max-width: 1200px) {
@@ -114,7 +114,7 @@ a {
 }
 
 .highlight {
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .subhead {
@@ -205,7 +205,7 @@ span.logo-R {
 
 .logo:hover span.logo-D {
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .logo-slash {
@@ -215,63 +215,63 @@ span.logo-R {
 .logo:hover span.logo-R {
     margin: 0 0 0 -8px;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide1 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide2 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide3 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide4 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide5 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide6 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide7 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .logo:hover .hide8 {
     max-width: 100%;
     opacity: 1;
     letter-spacing: 6px;
-    color: #1739FF;
+    color: #0867ff;
 }
 
 /* menu */
@@ -404,7 +404,7 @@ span.logo-R {
 @keyframes menu-hover {
   100% {
     color: #f0f4f4;
-    background: #1739FF;
+    background: #0867ff;
     border-radius: 12px;
     transform: scale(.9);
   }
@@ -415,7 +415,7 @@ span.logo-R {
 }
 
 .current-page a {
-    color: #1739FF;
+    color: #0867ff;
 }
 
 .current-page:hover {
@@ -460,7 +460,7 @@ span.logo-R {
   100% {
     opacity: 1;
     transform: translate(0, 0);
-    color: #1739FF;
+    color: #0867ff;
   }
 }
 
@@ -636,7 +636,7 @@ span.logo-R {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #1739FF no-repeat center 20%;
+    background: #0867ff no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     transition: all .2s .0s ease;
@@ -654,6 +654,7 @@ span.logo-R {
     left:0;
     width:100%;
     text-align: left;
+    line-height: 30px;
     font-family: "thermal-variable", sans-serif;
     font-variation-settings: "opsz" 500, "wght" 500; 
     color: #E9EF00;
@@ -686,17 +687,16 @@ span.logo-R {
 }
 
 .case-divider {
-    border-top: 1.2px solid #1739FF;
+    border-top: 1.2px solid #0867ff;
     position: relative;
     padding-bottom: .4em;
 }
 
 .case-link a {
-    
     font-size: 1.8em;
     text-align: left;
     transition: all .15s cubic-bezier(0.5, 0.5, 0.4, 1.2);   
-    color: #1739FF; 
+    color: #0867ff; 
     background-color: transparent;
     border-radius: 12px 12px 12px 12px;
     /* CSS trick: the margin-top attribute below allows these links to remain at equal positions, regardless of div contents */ 
@@ -733,7 +733,7 @@ span.logo-R {
         height: 60px;
         text-align: center;
         margin: 120px;
-        background-color: #1739FF;
+        background-color: #0867ff;
         color: #f0f4f4;
     }
     
@@ -768,7 +768,7 @@ span.logo-R {
 #work {
     width: 100%;
     background: rgb(23,57,255);
-    background: linear-gradient(0deg, rgba(23,57,255,1) 0%, rgba(36,47,91,1) 55%);
+    background: linear-gradient(0deg, rgba(8,103,255,1) 0%, rgba(36,47,91,1) 55%);
 }
 
 #rig {
@@ -827,7 +827,7 @@ span.logo-R {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #1739FF no-repeat center 20%;
+    background: #0867ff no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     transition: all .2s .0s ease;
@@ -850,6 +850,7 @@ span.logo-R {
     font-variation-settings: "opsz" 500, "wght" 500; 
     color: #E9EF00;
     font-size: 22px;
+    line-height: 30px;
     top:40%;
     opacity:0;
     transform:translateY(-20px);
@@ -1618,7 +1619,7 @@ footer {
     padding-bottom: 80px;
     margin: 0 auto;
     text-align: center;
-    background-color: #1739FF;
+    background-color: #0867ff;
 }
 
 #footer_social {
