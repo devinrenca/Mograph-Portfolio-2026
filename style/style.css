@@ -648,17 +648,17 @@ span.logo-R {
 
 .overlay-text {
     display:block;
-    padding:0 20px;
+    padding:0 40px;
     box-sizing:border-box;
     position:absolute;
     left:0;
     width:100%;
     text-align: left;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 38px;
     font-family: "thermal-variable", sans-serif;
     font-variation-settings: "opsz" 500, "wght" 500; 
     color: #E9EF00;
-    font-size: 22px;
     top:40%;
     opacity:0;
     transform:translateY(-20px);
@@ -703,7 +703,7 @@ span.logo-R {
     margin-top: auto;
 }
 
-@media (max-width: 1460px) {  
+@media (max-width: 1600px) {  
     .case-text h3 {
         height: 90px;
     }
@@ -844,14 +844,14 @@ span.logo-R {
     box-sizing:border-box;
     position:absolute;
     left:0;
+    top:40%;
     width:100%;
-    text-align:left;
+    text-align: left;
     font-family: "thermal-variable", sans-serif;
     font-variation-settings: "opsz" 500, "wght" 500; 
     color: #E9EF00;
-    font-size: 22px;
-    line-height: 30px;
-    top:40%;
+    font-size: 28px;
+    line-height: 38px;
     opacity:0;
     transform:translateY(-20px);
     transition: all .2s .025s ease;
@@ -866,7 +866,7 @@ span.subtext {
     color: #f0f4f4;
     font-family: "paralucent-condensed", sans-serif;
     font-weight: 400;
-    font-size: 21px; 
+    font-size: 26px; 
 }
 
 .video {
