@@ -1527,6 +1527,12 @@ image-child {
     margin-top: 2em;
 }
 
+@media (max-width: 1200px) {
+    .info-email {
+        margin-bottom: 1em;
+    }
+}
+
 .info-email h4 {
     line-height: 30px;
     vertical-align: center;
