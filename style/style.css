@@ -672,8 +672,8 @@ span.logo-R {
 
 .case-text {
     background-color: rgba(185,201,225,1);
-    width: 88%;
-    padding: .5em;
+    width: 82%;
+    padding: 1.2em;
     margin: auto;
     position: relative;
     transform:translate(0, -20px);
