@@ -109,7 +109,7 @@ a {
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 }
 
@@ -936,7 +936,23 @@ span.subtext {
     
     .proj-container {
     width: 90%;
+    }
+        
+    .reel-container {
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 2em;
 }
+}
+
+@media (max-width: 800px) {
+    .reel-container {
+        width: 96%;
+    }
+    
+    .proj-container {
+        width: 96%;
+    }
 }
 
 .lead-vid_vertical {
@@ -1372,7 +1388,12 @@ image-child {
     padding: 2em 0;
 }
 
-@media (max-width: 1200px) {
+.play-vimeo-container {
+    padding: 56.5% 0 0 0;
+    position:relative;
+}
+
+@media (max-width: 1200px) {    
     .play-container {
         width: 100%;
         flex-direction: column;
@@ -1403,7 +1424,20 @@ image-child {
     
     .play-banner h3 {
         padding: .5em 3em 0 3em;
+    }
 }
+
+@media (max-width: 800px) {
+    
+    .play-vimeo-container {
+        padding: 80% 0 0 0;
+    }
+    
+    .play-right {
+        width: 80%;
+        min-height: 100px;
+        margin: 0 auto;
+    }
 }
 
 .play-wrapper {
