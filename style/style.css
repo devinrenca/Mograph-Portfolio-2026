@@ -85,7 +85,6 @@ p {
 
 a { 
     text-decoration: none;
-    font-size: 1.4em;
     color: #0867ff; 
 }
 
@@ -114,7 +113,7 @@ a {
 }
 
 .highlight {
-    color: #0867ff;
+    color: #0867ff; 
 }
 
 .subhead {
@@ -540,6 +539,87 @@ span.logo-R {
   }
 }
 
+.underlined {
+    color: #0867ff;
+    background: linear-gradient(currentColor 0 0) 
+        bottom center/
+        var(--underline-width, 0%) 0.08em
+        no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    --underline-width: 0%;
+    transition: background-size .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+    cursor: pointer;
+}
+
+.underlined:hover {
+    --underline-width: 100%;  
+}
+
+.closevideo {
+    color: #2B303A;
+    font-size: 3em;
+    padding: 4px 12px;
+    border: 4px solid #2B303A;
+    border-radius: 12px;
+    transition: .2s cubic-bezier(0.230, 0.000, 0.060, 1.000);
+}
+
+.closevideo:hover {
+    color: #0867ff;
+    border: 4px solid #0867ff;
+        padding: 8px 24px;
+}
+
+.videocontainer {
+	position: fixed;
+	display:none;
+	top:0;
+	bottom:0;
+	z-index:1300;
+	margin:0 auto;
+	left: 0;
+    right: 0; 
+    height: 100vh;
+}
+
+.videocontainer .closevideo {
+	position:absolute;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+
+.videocontainer video.videobox {  
+	/*min-width: 100%; 
+	width: 100%; 
+	height: auto; */
+	width:100%;
+	min-width:100%;
+	height: 80vh;
+	left:0;
+	right:0;
+	position:absolute;
+	background: url() no-repeat; 
+	background-size: cover;
+	margin:0 auto; 
+	top: 50%;
+	-webkit-transform: translateY(-50%); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: translateY(-50%); /* IE 9 */
+          transform: translateY(-50%); /* IE 10, Fx 16+, Op 12.1+ */
+}
+
+.videooverlay {
+	position:fixed;
+	display:none;
+	top:0;
+	z-index:1200;
+	width:100%;
+	height:100vh;
+	background-color: rgba(185,201,225,1);
+    opacity: .9;
+}
+
 .curve-divider {
     width: 100%;
     transform: scale(1.0);
@@ -692,8 +772,11 @@ span.logo-R {
     padding-bottom: .4em;
 }
 
-.case-link a {
+.case-link {
     font-size: 1.8em;
+}
+
+.case-link a {
     text-align: left;
     transition: all .15s cubic-bezier(0.5, 0.5, 0.4, 1.2);   
     color: #0867ff; 

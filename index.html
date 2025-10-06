@@ -10,8 +10,13 @@
         <meta name="keyword" content="devin renca, renca, vermont motion graphics, vermont, animation, vermont animator, boston motion design, boston 3D artist, boston cinema 4d, animator, animation, motion design, motion designer, animator, blender 3d, 3D artist, cinema 4d, c4d,">
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/dwe3zaq.css">
+        <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+                crossorigin="anonymous">
+        </script>
         <link rel="shortcut icon" href="images/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
     </head>
     
 <body>
@@ -34,7 +39,8 @@
         </a>
         
         <input class="menu-btn" type="checkbox" title="menu checkbox" id="menu-btn"/>
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <label 
+                   class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="menu">
                     <li class="current-page"><a href="#work">Work</a></li>
                     <li class="linked-page"><a href="play.html">Play</a></li>
@@ -44,13 +50,41 @@
     </header> 
 </div>                
     
+<script>
+$(document).ready(function() {
+        var video = document.getElementById("thevideo");
+        function stopVideo(){
+          video.pause();
+          video.currentTime = 0;
+        }
+     $(".playvideo").click(function() {
+          $('.videooverlay, .videocontainer').fadeIn(400);
+          $("video.videobox").each(function () { this.play() });
+        });
+      $(".closevideo").click(function() {
+          $('.videooverlay, .videocontainer').fadeOut(300);
+          $("video.videobox").each(function () {  stopVideo(); });
+        });
+    });        
+</script>      
+    
 <div class="welcome-banner">
     <h1 class="welcome-headline"><span class="intro_highlight">Devin brings ideas to life</span><br>
-        <span class="highlight">with</span> 
-        <span class="highlight">purposeful</span> 
-        <span class="highlight">motion</span>
+            <a class="underlined playvideo">
+            <span class="highlight">with</span> 
+            <span class="highlight">purposeful</span> 
+            <span class="highlight">motion</span>
+            </a>     
     </h1>
-</div>
+</div>  
+        
+<div class="videooverlay"></div>
+    <div class="videocontainer">
+        <div class="closevideo">X</div>
+        <video id="thevideo" class="videobox" >
+        <source src="images/announcement-vid.mp4">    
+        </video>
+    </div>     
     
 <div class="work-bttn_container">    
     <div class="work-bttns">
