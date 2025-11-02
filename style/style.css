@@ -121,20 +121,20 @@ a {
 }
 
 .dash {
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #2B303A;
     margin-top: 2em;
     margin-bottom: 2em;
     width: 42px;
 }
 
 .dash-full {
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #2B303A;
     margin-bottom: 2em;
     width: 100%;
 }
 
 .dash-centered {
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #2B303A;
     margin: 0 auto;
     width: 92px;
 }
