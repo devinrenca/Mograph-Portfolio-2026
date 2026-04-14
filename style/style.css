@@ -676,7 +676,7 @@ span.logo-R {
 }
 
 .case-container {
-    max-width: 94%;
+    max-width: 96%;
     display: flex;
     margin: 0 auto;
     gap: 4em;
@@ -786,9 +786,7 @@ span.logo-R {
 
 .case-text h3 {
     margin-top: .3em;
-    margin-bottom: .6em;
-    padding-bottom: .5em;
-    height: 70px;
+    padding-bottom: 1em;
 }
 
 .case-divider {
