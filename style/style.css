@@ -78,7 +78,7 @@ p {
     font-weight: 500;
     color: #2B303A;
     font-size: 1.3em;
-    line-height: 1.3em;
+    line-height: 1.5em;
     padding: 0;
     margin: 0;
 }
@@ -370,7 +370,6 @@ span.logo-R {
         font-style: normal;
         text-decoration: none;
         text-align: center;
-        border-radius: 3px;
     }
 }
     
@@ -404,7 +403,6 @@ span.logo-R {
   100% {
     color: #f0f4f4;
     background: #0867ff;
-    border-radius: 12px;
     transform: scale(.9);
   }
 }
@@ -564,7 +562,7 @@ span.logo-R {
   }
     
   50% {
-      letter-spacing: .04em;
+      letter-spacing: .02em;
   }
     
   100% {
@@ -707,6 +705,7 @@ span.logo-R {
         padding-left: 0;
         padding-right: 0;
         align-items: stretch;
+        margin-bottom: 2em;
     }
 }
 
@@ -715,7 +714,6 @@ span.logo-R {
     display: block;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 .case-image img {
@@ -775,14 +773,15 @@ span.logo-R {
     opacity: 1;
 }
 
+.case-descript {
+        width: 100%;
+        background-color: rgba(185,201,225,1);
+}
+
 .case-text {
-    background-color: rgba(185,201,225,1);
-    width: 82%;
     padding: 1.2em;
     margin: auto;
     position: relative;
-    transform:translate(0, -20px);
-    border-radius: 6px;
 }
 
 .case-text h3 {
@@ -807,7 +806,6 @@ span.logo-R {
     transition: all .15s cubic-bezier(0.5, 0.5, 0.4, 1.2);   
     color: #0867ff; 
     background-color: transparent;
-    border-radius: 12px 12px 12px 12px;
     /* CSS trick: the margin-top attribute below allows these links to remain at equal positions, regardless of div contents */ 
     margin-top: auto;
 }
@@ -1226,7 +1224,7 @@ span.subtext {
 
 .vid_square {
     width: 100%;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 3em;
 }
 
 .vid_square-full {
@@ -1247,7 +1245,7 @@ span.subtext {
 }
 
 .vertical-grid {
-    width: 100%;
+    width: 129%;
     padding-top: 2em;
     margin: auto;
     display: flex;
@@ -1473,7 +1471,6 @@ image-child {
 .play-left {
   width: 100%;
   background: rgba(36,47,91,1);
-  border-radius: 8px;
 }
 
 .play-right {
@@ -1485,7 +1482,6 @@ image-child {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    border-radius: 8px;
     color: #f0f4f4;
     margin-left: -130px;
 }
