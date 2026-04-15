@@ -1243,7 +1243,7 @@ span.subtext {
 }
 
 .vertical-grid {
-    width: 129%;
+    width: 100%;
     padding-top: 2em;
     margin: auto;
     display: flex;
