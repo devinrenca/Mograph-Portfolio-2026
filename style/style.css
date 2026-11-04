@@ -1252,7 +1252,7 @@ span.subtext {
 
 .vertical-vid_container {
     flex: 33.333%;
-    margin: auto;
+    margin: 0 10px;
 }
 
 .vid_vertical {
@@ -1482,6 +1482,7 @@ image-child {
     padding: 30px;
     color: #f0f4f4;
     margin-left: -130px;
+    z-index: 1;
 }
 
 .play-content h2 {
@@ -1493,11 +1494,13 @@ image-child {
     transform: translateX(-70px);
     height: auto;
     padding: 2em 0;
+        z-index: -1;
 }
 
 .play-vimeo-container {
-    padding: 56.5% 0 0 0;
-    position:relative;
+    padding: 0;
+    overflow: hidden;
+    z-index: -1;
 }
 
 @media (max-width: 1200px) {    
