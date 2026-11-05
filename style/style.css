@@ -1469,6 +1469,7 @@ image-child {
 .play-left {
   width: 100%;
   background: rgba(36,47,91,1);
+    border-radius: 5px;
 }
 
 .play-right {
@@ -1490,16 +1491,10 @@ image-child {
 }
 
 .play-vid {
-    width: 100%;
-    transform: translateX(-70px);
+    width: 94%;
     height: auto;
+    margin: 0 auto;
     padding: 2em 0;
-        z-index: -1;
-}
-
-.play-vimeo-container {
-    padding: 0;
-    overflow: hidden;
     z-index: -1;
 }
 
@@ -1538,10 +1533,6 @@ image-child {
 }
 
 @media (max-width: 800px) {
-    
-    .play-vimeo-container {
-        padding: 80% 0 0 0;
-    }
     
     .play-right {
         width: 80%;
